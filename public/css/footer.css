@@ -1,0 +1,133 @@
+.footer-qub{
+	padding: 11px 20px;
+	margin: 0;
+	background: #393939;
+	color: rgba(255,255,255,0.8) !important;
+}
+
+.row-social{
+	padding: 15px 0 15px 0;
+	border-bottom: 1px solid rgba(255,255,255,0.8);
+}
+
+.title-social{
+	float: left;
+	width: 400px;
+	padding-top: 18px;
+	font-size: 16px;
+	letter-spacing: 0.3px;
+	font-weight: 400;
+}
+
+.links{
+	font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    color: rgba(0,0,0,0.8);
+    overflow: hidden;
+    text-align: center;
+    font-size: 16px;
+    vertical-align: middle;
+    font-weight: 650;
+    padding: 11px;
+    text-decoration: none;
+    position: relative;
+}
+
+.links-social{
+	display: inline-block;
+}
+
+.tags{
+	color: rgba(255,255,255,0.8);
+	font-weight: 300;
+}
+
+.tags:hover{
+	font-weight: 300;
+	color: #fb8133;
+	text-decoration: none;
+}
+
+.links-account{
+	display: inline-block;
+	float: right;
+}
+
+.filter-color{
+	filter: invert(52%) sepia(30%) saturate(6582%) hue-rotate(331deg) brightness(94%) contrast(92%);
+	float: left;
+    width: 45px;
+    height: 45px;
+}
+
+.brand-footer{
+	display: inline-block;
+}
+
+.details{
+	float: right;
+}
+
+.d-tag{
+	font-size: 14px;
+	color: rgba(255,255,255,0.8);
+	font-weight: 300;
+}
+
+.d-tag:hover{
+	font-weight: 300;
+	color: #fb8133;
+	text-decoration: none;
+}
+
+.copyrights{
+	text-align: right;
+	font-weight: 200;
+	font-size: 12px;
+}
+
+@media screen and (max-width: 1200px){
+	.title-social{
+		width: 250px;
+	}
+}
+
+@media screen and (max-width: 1000px){
+	.links-account{
+		display: block;
+		float: none;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.title-social{
+		display: block;
+		float: none;
+		max-width: 700px;
+		margin: auto;
+		text-align: center; 
+		padding-top: 0;
+		padding-bottom: 10px;
+	}
+	.links-social{
+		display: block;
+		text-align: center;
+	}
+
+	.brand-footer{
+		display: block;
+		max-width: 150px;
+		margin: auto;
+	}
+
+	.details{
+		float: none;
+		text-align: center;
+	}
+
+	.copyrights{
+		text-align: center;
+	}
+
+}

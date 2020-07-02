@@ -1,0 +1,48 @@
+
+.big-img{
+	height: 440px;
+	width: 440px;
+}
+
+.helper-images{
+	margin-top: 20px;
+}
+
+.img-area{
+	padding: 0 10px;
+}
+
+.small-img{
+	height: 60px;
+	width: 60px;
+	opacity: 0.8;
+}
+
+.small-img:hover{
+	opacity: 1;
+}
+
+table{
+	width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+
+table td{
+	padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+#res-btn{
+	border-radius: 2px;
+	padding: 6px 28px;
+	color: white;
+	font-size: 18px;
+	background: linear-gradient(to right, #fb8133, #e74e4b);
+}
+
+#res-btn:hover{
+	transition: 0.5s ease;
+	background: linear-gradient(to right, #e74e4b, #fb8133);
+}

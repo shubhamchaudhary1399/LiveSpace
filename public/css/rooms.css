@@ -1,0 +1,31 @@
+
+#addroom,#back{
+	background: #ffffff;
+	border: 1px solid #f2734c;
+	border-radius: 20px;
+	color: #f2734c;
+	margin-bottom: 10px;
+}
+
+#addroom:hover,#back:hover{
+	background: linear-gradient(to right, #e74e4b, #fb8133);
+	color:#FFFFFF;
+}
+
+.form-group input[type=file]{
+	opacity: 0;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	position: absolute;
+}
+
+.card-room{
+	margin-bottom: 10px;
+}
+
+.room-image{
+	max-width: 100%;
+	max-height: 100px;
+}

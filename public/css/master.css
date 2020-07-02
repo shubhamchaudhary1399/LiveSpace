@@ -1,0 +1,75 @@
+
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+.btn:focus, .btn:active {
+	outline: none !important;
+	transition: 0.5s ease;
+	box-shadow: none !important;
+}
+
+input:focus, input:active, textarea:focus, textarea:active, select:focus, select:active{
+	outline: none !important;
+	border-color: #e74e4b !important;
+	transition: 0.5s ease;
+    box-shadow: 0 0 5px rgb(231,78,75)!important;
+}
+
+.my-btn{
+	background: linear-gradient(to right, #fb8133, #e74e4b);
+	border: 1px solid #f2734c;
+	border-radius: 2px;
+	color: #FFFFFF;
+	margin-bottom: 10px;
+}
+
+.my-btn:hover{
+	background: linear-gradient(to right, #e74e4b, #fb8133);
+	color:#FFFFFF;
+	transition: 0.5s ease-in-out;
+}
+
+.bg-b{
+	color: #51bcda !important;
+}
+
+.bg-o{
+	color: #ef8157 !important;
+}
+
+.bg-g{
+	color: #6bd098 !important;
+}
+
+.icon-big{
+	font-size: 3em;
+	min-height: 64px;
+}
+
+#price-info{
+	font-family: 'Poppins', sans-serif;
+	background: linear-gradient(to right, #fb8133, #e74e4b);
+	color: white;
+}
+
+.final-price{
+	font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    color:white;
+}
+
+.old-price{
+	text-decoration: line-through;
+	font-size: 18px;
+	padding-left: 10px;
+	font-weight: 300;
+    color: white;
+}
+
+.discount{
+	padding-left: 10px;
+	font-weight: 500;
+	font-size: 18px;
+}

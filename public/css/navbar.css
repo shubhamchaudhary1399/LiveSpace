@@ -1,0 +1,109 @@
+
+.my-navbar{
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.3);
+	font-family: 'Roboto';
+}
+
+#nav-search-box{
+	margin-left: 30%;
+	margin-right: 10%;
+}
+
+#nav-search-input{
+	width: 50%;
+	float: left;
+	background: white;
+    border: 1px solid rgb(0, 0, 0, 0.5);
+    padding: 4px 8px;
+    outline: none;
+}
+
+#scope-search{
+	height: 20px;
+	width: 20px;
+	opacity: 0.6;
+}
+
+#nav-search-btn{
+	width: 10%;
+	float: left;
+	border: 1px solid rgb(0, 0, 0, 0.5)!important;
+	border-left: none!important;
+	background: #f8f8f8;
+}
+
+#nav-search-btn:hover{
+	outline: none !important;
+	background: #f2f2f2;
+}
+
+.material-icons.md-36 {
+  font-size: 36px; }
+
+.mt-aside{
+	position: relative;
+	top: -6px;
+	margin-left: -5px;
+}
+
+.text-bt{
+	color: #000000;
+	padding: 10px 20px!important;
+	text-align: left;
+}
+
+.text-bt:hover{
+	color: #000000;
+}
+
+#nav-search-input:focus, #nav-search-input:active{
+	box-shadow: inset 0 0 2px rgb(231,78,75)!important;
+}
+
+.active{
+	border-radius: 25px;
+	background: linear-gradient(to right, #fb8133, #e74e4b);
+	color: #FFFFFF !important;
+}
+
+.active:hover{
+	background: linear-gradient(to right, #e74e4b, #fb8133);
+	color: #FFFFFF !important;
+}
+
+.card-prop{
+	border-radius: 15px;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.14), 0 2px 0px -2px rgba(0,0,0,.2), 0 0px 4px 0 rgba(0,0,0,.12)!important;
+}
+
+.dropdown-item{
+	padding: 0.8rem 1.5rem;
+}
+
+
+.dropdown-item span {
+    position: relative;
+    top: -6px;
+    padding-left: 8px;
+}
+
+.custom-head{
+	display: inline-flex;
+}
+
+
+@media screen and (max-width: 992px){
+#nav-search-box{
+	margin-left: 2%;
+	margin-right: 0;
+}
+
+#nav-search-input{
+	width: 83%;
+}
+
+#nav-search-btn{
+	width: 15%;
+}
+
+}

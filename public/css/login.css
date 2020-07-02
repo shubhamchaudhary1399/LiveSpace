@@ -1,0 +1,38 @@
+
+.top-banner{
+	height: 90vh;
+    display: block;
+    background-image: url(../img/office-room.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.f-overlay{
+	width: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+.text-heading{
+	color: white;
+	text-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.text-wh{
+	color: white;
+	text-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.my-card{
+	background: linear-gradient(to right, #e74e4b, #fb8133);
+	font-weight: bold;
+	color: white;
+	letter-spacing: 0.4px;
+}
