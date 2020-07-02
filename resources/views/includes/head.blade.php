@@ -9,9 +9,9 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="{{ asset('css/master.css') }}">
-<link href="{{ asset('css/navbar.css') }}" rel="stylesheet">
-<link href="{{ asset('css/footer.css') }}" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="/css/master.css">
+<link href="/css/navbar.css" rel="stylesheet">
+<link href="/css/footer.css" rel="stylesheet">
 <!-- <link href="{{ asset('css/app.css') }}" rel="stylesheet"> -->
 
 
@@ -26,9 +26,3 @@
 <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-
-
-
-
-
-

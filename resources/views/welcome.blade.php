@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="/css/welcome.css">
 @endsection
 
-@section('title', 'Login | LiveSpace')
+@section('title', 'Welcome | LiveSpace')
 
 @section('content')
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
