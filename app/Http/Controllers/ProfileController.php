@@ -41,7 +41,7 @@ class ProfileController extends Controller
             $picture1 = date('His') . '-' . $filename1;
             $file1->move(public_path('uploads'), $picture1);
         }
-        
+
 
         $details = User::whereid(Auth::user()->id)->first();
         if(isset($picture1))
