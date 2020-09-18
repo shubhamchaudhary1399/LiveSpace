@@ -9,6 +9,9 @@ Clone the repository into you machine:
 ```
 git@github.com:shubhamchaudhary1399/LiveSpace.git
 ```
+## Deployment
+
+- This project is already deployed on the link (https://livespace.herokuapp.com/)
 
 ## Built With
 - HTML, CSS, JavaScript
