@@ -4,7 +4,6 @@
         <a class="navbar-brand" href="{{ url('/') }}">
             <i class="material-icons md-36" style="color: #e74e4b;">home</i>
             <span class="mt-aside">{{ config('app.name', 'LiveSpace') }}</span>
-            
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}" style="outline: none;">
                 <span class="navbar-toggler-icon"></span>
