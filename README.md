@@ -2,6 +2,9 @@
 
 LiveSpace Online Room booking website
 
+##
+This website helps the students, faculties and working professionals in booking rooms or full home by comparing prices and giving extra discounts.
+
 ## Getting Started
 
 Clone the repository into you machine:
